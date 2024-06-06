@@ -37,7 +37,7 @@ section#login {
 }
 section#login > div#imagem {
     display: block;
-    background: #5f2c82 url('imagens/pexels-tara-winstead-8386440.jpg');
+    background: #5f2c82 url('../imagens/pexels-tara-winstead-8386440.jpg');
     background-size: cover;
     height: 200px;
 }
