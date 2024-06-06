@@ -9,6 +9,9 @@
     <link rel="stylesheet" href="estilos/media-query.css">
 </head>
 <body>
+    <menu>
+
+    </menu>
     <main>
         <section id="login">
             <div id="imagem"></div>
@@ -32,5 +35,18 @@
             </div>
         </section>
     </main>
+    <footer id="footer" onclick="revelarMais()">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officia, sed? Tempore, reiciendis ratione! Quidem voluptates rerum modi doloremque officia sed architecto? Repellendus recusandae quis maiores ipsum veritatis dolores labore ipsa?</p>
+    </footer>
+    <script>
+        function revelarMais() {
+            var clicado = document.getElementById('footer');
+            if (clicado.classList.contains('mostrar')) {
+                clicado.classList.remove('mostrar');
+            } else {
+                clicado.classList.add('mostrar');
+            }
+        }
+    </script>
 </body>
 </html>
