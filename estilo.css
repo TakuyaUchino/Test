@@ -1,5 +1,36 @@
-@charset 'UTF-8';
+@charset "UTF-8";
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
-h1 {
-    background-color: aqua;
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden; /* Evita rolagem */
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh; /* 100% da altura da viewport */
+}
+
+.panel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    color: white;
+}
+
+.left-panel {
+    flex: 2;
+    background-color: #3498db; /* Cor de fundo do painel esquerdo */
+}
+
+.right-panel {
+    flex: 1;
+    background-color: #2ecc71; /* Cor de fundo do painel direito */
 }
